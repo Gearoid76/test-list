@@ -1,35 +1,25 @@
+*{
+  box-sizing: border-box;
+}
 .flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-}
-/* Responsive layout - makes a one column-layout instead of three-column layout */
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-  .flex-container > .column1 {
-    background-color: #f1f1f1;
-    width: 90%;
-    margin: 10px;
     text-align: center;
-  }
 }
-
 
   .flex-container > .column1 {
     background-color: #f1f1f1;
-    width: 30%;
-    margin: 10px;
+    flex: 30%;
+    margin: 5px;
     text-align: center;
     line-height: 75px;
     font-size: 16px;
   }
 
   .flex-container > .column2 {
-    background-color: #f1f1f1;
-    width: 30%;
-    margin: 10px;
+    background-color: dodgerblue;
+    flex: 30%;
+    margin: 5px;
     text-align: center;
     line-height: 75px;
     font-size: 16px;
@@ -37,9 +27,9 @@
   }
   
   .flex-container > .column3 {
-    background-color: #f1f1f1;
-    width: 30%;
-    margin: 10px;
+    background-color: orange;
+    flex: 30%;
+    margin: 5px;
     text-align: center;
     line-height: 75px;
     font-size: 16px;
@@ -57,6 +47,14 @@
     justify-content: middle;
     margin: 0;
     padding: 0;
+  }
+
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      justify-content: middle;
+      width: 90%;
+    }
   }
 
     /* From here down is the recipes.index page layout this is for ingredients.html */
