@@ -1,0 +1,78 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+  .flex-container > .column1 {
+    display: flex;
+    margin:10px;
+    padding: 20px;
+    flex-direction: column;
+    
+  }
+
+  .flex-container > .column2 {
+    display: flex;
+    margin:10px;
+    padding: 20px;
+    flex-direction: column;
+    
+  }
+  
+  .flex-container > .column3 {
+    display: flex;
+    margin:10px;
+    padding: 20px;
+    flex-direction: column;
+    
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    padding: 20px;
+  }
+  p {
+    display:flex;
+    justify-content: middle;
+    margin: 0;
+    padding: 0;
+  }
+
+    /* From here down is the recipes.index page layout this is for ingredients.html */
+
+    h2  {
+      display: flex;
+      justify-content: center;
+      background-color: aqua;
+
+    }
+
+    .flex-container > .recipe-amounts {
+      display: flex;
+      margin:10px;
+      padding: 20px;
+      flex-direction: column;
+      float: left; 
+      background-color: aqua;
+      
+    }
+    
+    .flex-container > .recipe-ingredients {
+      display: flex;
+      margin: 10px;
+      padding: 20px;
+      flex-direction: column;
+      float: right;
+      background-color: aqua;
+      
+    }
+
+    .recipe-method {
+      display: flex;
+      margin: 10px;
+      flex-direction: column;
+      background-color: aqua;
+      padding: 20px;
+      
+    }
