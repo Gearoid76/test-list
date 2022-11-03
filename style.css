@@ -1,30 +1,50 @@
 .flex-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
+/* Responsive layout - makes a one column-layout instead of three-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container > .column1 {
+    background-color: #f1f1f1;
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+  }
+}
+
 
   .flex-container > .column1 {
-    display: flex;
-    margin:10px;
-    padding: 20px;
-    flex-direction: column;
-    
+    background-color: #f1f1f1;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 16px;
   }
 
   .flex-container > .column2 {
-    display: flex;
-    margin:10px;
-    padding: 20px;
-    flex-direction: column;
-    
+    background-color: #f1f1f1;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 16px;
+  
   }
   
   .flex-container > .column3 {
-    display: flex;
-    margin:10px;
-    padding: 20px;
-    flex-direction: column;
+    background-color: #f1f1f1;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 16px;
     
+      
   }
   h1 {
     display: flex;
@@ -32,7 +52,7 @@
     margin:10px;
     padding: 20px;
   }
-  p {
+  li {
     display:flex;
     justify-content: middle;
     margin: 0;
@@ -47,7 +67,7 @@
       background-color: aqua;
 
     }
-
+/* for the recipes pages */
     .flex-container > .recipe-amounts {
       display: flex;
       margin:10px;
@@ -67,12 +87,12 @@
       background-color: aqua;
       
     }
-
     .recipe-method {
       display: flex;
       margin: 10px;
       flex-direction: column;
       background-color: aqua;
-      padding: 20px;
-      
+      padding: 20px;   
     }
+
+/* end of the recipes pages */    
