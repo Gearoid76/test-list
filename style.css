@@ -15,12 +15,12 @@
     text-align: center;
     font-size: 16px;
   }
-  .Tartar_alergins_hide {
+  .tartar_alergins_hide, .hopper_Salmon_alergins_hide {
     display: none;
     text-align: center;
     margin: auto;
   }
-  .Tartar_alergins:hover + .Tartar_alergins_hide {
+  .tartar_alergins:hover + .tartar_alergins_hide {
     display: block;
     color: white;
     background-color: brown;
@@ -28,7 +28,15 @@
     width: 50%;
     text-align: center;
     border-radius: .5em;
-
+  }
+  .hopper_Salmon_alergins:hover + .hopper_Salmon_alergins_hide {
+    display: block;
+    color: black;
+    background-color: yellow;
+    padding: .5em;
+    width: 50%;
+    text-align: center;
+    border-radius: .5em;
   }
 
   .flex-container > .column2 {
