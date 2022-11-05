@@ -5,33 +5,31 @@
     display: flex;
     flex-direction: row;
     text-align: center;
+    margin: auto;
 }
 
   .flex-container > .column1 {
     background-color: #f1f1f1;
-    flex: 30%;
+    flex: 25%;
     margin: 5px;
     text-align: center;
-    line-height: 75px;
     font-size: 16px;
   }
 
   .flex-container > .column2 {
     background-color: dodgerblue;
-    flex: 30%;
+    flex: 25%;
     margin: 5px;
     text-align: center;
-    line-height: 75px;
     font-size: 16px;
   
   }
   
   .flex-container > .column3 {
     background-color: orange;
-    flex: 30%;
+    flex: 25%;
     margin: 5px;
     text-align: center;
-    line-height: 75px;
     font-size: 16px;
     
       
@@ -53,7 +51,8 @@
     .flex-container {
       flex-direction: column;
       justify-content: middle;
-      width: 90%;
+      width: 75%;
+      justify-content: center;
     }
   }
 
