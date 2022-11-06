@@ -1,12 +1,13 @@
 *{
   box-sizing: border-box;
-}
+  }
+
 .flex-container {
     display: flex;
     flex-direction: row;
     text-align: center;
     margin: auto;
-}
+  }
 
   .flex-container > .column1 {
     background-color: #f1f1f1;
@@ -15,6 +16,7 @@
     text-align: center;
     font-size: 16px;
   }
+
   .tartar_alergins_hide, .hopper_Salmon_alergins_hide {
     display: none;
     text-align: center;
@@ -29,6 +31,7 @@
     text-align: center;
     border-radius: .5em;
   }
+
   .hopper_Salmon_alergins:hover + .hopper_Salmon_alergins_hide {
     display: block;
     color: black;
@@ -53,21 +56,37 @@
     flex: 25%;
     margin: 5px;
     text-align: center;
-    font-size: 16px;
-    
-      
+    font-size: 16px;   
   }
+
   h1 {
     display: flex;
     justify-content: center;
     margin:10px;
     padding: 20px;
   }
+
   li {
     display:flex;
     justify-content: middle;
     margin: 0;
     padding: 0;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  .back_to_prepPage {
+    border: none;
+    color: white;
+    padding:1em 2em;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: .5em;
+    background-color: green;
   }
 
   @media (max-width: 800px) {
