@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viisipennia</title>
-    <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen"/>
 </head>
 <body>
     <h1> Prep page </h1>
     <div class="flex-container">
         <div class="column1">
-       <div class="tartar_alergins"> <h3>Tartar</h3></div>
+        <div class="tartar_alergins"><h3>Tartar</h3></div>
             <div class="tartar_alergins_hide">Alergins in Tartar: are Egg yolk, raw meat, gluten in bread</div>
                     <ul>
                         <li><input type="checkbox" id="Tartar_todo1" name="Tartar_todo1" value="Defrost/cut">
@@ -30,45 +30,77 @@
         <div class="hopper_Salmon_alergins"><h3>Hopper Salmon</h3></div>
                     <div class="hopper_Salmon_alergins_hide">Alergins in Hopper Salmon: Fish, Fennel, etc.</div>
                 <ul>
-                    <li>Cured salmon Cure/defrost/slice</li>
-                    <li>Horseraddish cream</li>
-                    <li>Cucumber slices</li>
-                    <li>Fennel shaves</li>
-                    <li>Malt crumb</li>
-                    <li>Dill oil</li>
+                    <li><input type="checkbox" id="hopper_salmon_todo1" name="hopper_salmon_todo1" value="Cured salmon Cure/defrost/slice">
+                            <label for="hopper_salmon_todo1">Cured salmon Cure/defrost/slice</label></li>
+                    <li><input type="checkbox" id="hopper_salmon_todo2" name="hopper_salmon_todo2" value="Horseraddish cream">
+                            <label for="hopper_salmon_todo2">Horseraddish cream</label></li>
+                    <li><input type="checkbox" id="hoper_salmon_todo3" name="hopper_salmon_todo3" value="Cucumber slices">
+                            <label for="hopper_salmon_todo3" name="hopper_salmon_todo3" value="Cucumber slices">Cucumber slices</label></li>
+                    <li><input type="checkbox" id="hopper_salmon_todo4" name="hoper_salmon_todo4" value="Fennel shaves">
+                            <label for="hopper_salmon_todo4" name="hopper_salmon_todo4"value="Fennel shaves">Fennel shaves</label></li>
+                    <li><input type="checkbox" id="hopper_salmon_todo5" name="hopper_salmon_todo5" value="Malt crumb">
+                            <label for="hopper_salmon_todo5" name="hopper_salmon_todo5" value="Malt crumb">Malt crumb</label></li>
+                    <li><input type="checkbox" id="hopper_salmon_todo6" name="hopper_salmon_todo6" value="Dill oil">
+                            <label for="hopper_salmon_todo6" name="hopper_salmon_todo6" value="Dill oil">Dill oil</label></li>
                 </ul>
 
             <h3>Falafel</h3>
             <ul>
                 <li><input type="checkbox" id="Falafel_todo1" name="Falafel_todo1" value="Falafel_massa_Make/defrost">
-                    <label for="Falfel_todo1"><a href="#" target="_blank">Falafel massa Make/defrost</a></label></li>
-                <li><input type="checkbox" id="Falafel_todo2" name="Falefl_todo2" value="roll_balls_30g">
-                    <label for="Falfel_todo2">Roll balls 30g</li></label>
-                <li><input type="checkbox" id="Falafel_todo3" name="Falafel_todo3" value="artichoke_spread">
-                    <label for="Falfel_todo3"><a href="./recipes/artichoke_spread.html" target="_blank">artichoke_spread</a></label></li>
+                    <label for="Falafel_todo1"><a href="./recipes/falafel.html" target="_blank">Falafel massa Make/defrost</a></label></li>
+                <li><input type="checkbox" id="Falafel_todo2" name="Falafel_todo2" value="roll_balls_30g">
+                    <label for="Falafel_todo2"name="Falafel_todo2" value="roll_balls_30g">Roll balls 30g</li></label>
+                <li><input type="checkbox" id="Falafel_todo3" name="Falafel_todo3" value="artichoke_puree">
+                    <label for="Falafel_todo3"><a href="./recipes/artichoke_puree.html" target="_blank">artichoke_puree</a></label></li>
                 <li><input type="checkbox" id="Falafel_todo4" name="Falafel_todo4" value="Dukkah">
-                    <label for="Falfel_todo4"><a href="./recipes/#" target="_blank">Dukkah</a></label></li>
-                <li><input type= "checkbox" id="Falfel_todo5" name="Falfel_todo5" value="Hearb_garnish">
-                    <label for="Falfel_todo5">Hearb garnish</li>
+                    <label for="Falafel_todo4"><a href="./recipes/dukkah.html" target="_blank">Dukkah</a></label></li>
+                <li><input type= "checkbox" id="Falafel_todo5" name="Falafel_todo5" value="Herb_garnish">
+                    <label for="Falafel_todo5"><a href="./recipes/herb_garnish.html" target="_blank">Herb garnish</a></label></li>
             </ul>
 
+            <h3>Snacks</h3>
+            <ul>
+                <li><input type="checkbox" id="snacks_todo1" name="snacks_todo1" value="Wings,Brine/cook">
+                    <label for="snacks_todo1" name="snacks_todo1" value="Wings,Brine/cook">Wings,Brine/cook</label></li>
+                <li><input type="checkbox" id="snacks_todo2" name="snacks_todo2" value="Chilli sesame dressing">
+                    <label for="snacks_todo2" name="snacks_todo2" value="Chilli sesame dressing">Chilli sesame dressing</label></li>
+                <li><input type="checkbox" id="snacks_todo3" name="snacks_todo3" value="Cheddar cubes Cut/Pane">
+                    <label for="snacks_todo3" name="snacks_todo3" value="Cheddar cubes Cut/Pane">Cheddar cubes Cut/Pane</label></li>
+                <li><input type="checkbox" id="snacks_todo4" name="snacks_todo4" value="Chilli Jam">
+                    <label for="snacks_todo4" name="snacks_todo4"value="Chilli Jam">Chilli Jam</label></li>
+                <li><input type="checkbox" id="snacks_todo5" name="snacks_todo5" value="Beer Braised Mushrooms">
+                    <label for="snacks_todo5" name="snacks_todo5" value="Beer Braised Mushrooms">Beer Braised Mushrooms</label></li>
+                <li><input type="checkbox" id="snacks_todo6" name="snacks_todo6" value="Sourdough Focaccia">
+                    <label for="snacks_todo6" name="snacks_todo6" value="Sourdough Focaccia">Sourdough Focaccia</label></li>
+            </ul>
+            
             <h3>Sides</h3>
             <ul>
-                <li>kimchi make/pack</li>
-                <li>Fermented chilli sauce Make/shake/pack</li>
-                <li>Vegan lemon aioli</li>
-                <li>Maple mustard dressing</li>
-                <li>Green oil</li>
-                <li>Chives/Parsley</li>
-                <li>Foccia/Sariotolais bread</li>
-                <li>Olives</li>
-                <li>Penni nuts</li>
-                <li>Aromatic salt</li>
-                <li>Peloola blue</li>
+                <li><input type="checkbox" id="sides_todo1" name="sides_todo1" value="Kimchi make/pack">
+                    <label for="sides_todo1" name="sides_todo1" value="Kimchi make/pack">Kimchi make/pack</label></li>
+                <li><input type="checkbox" id="sides_todo2" name="sides_todo2" value="Penni nut's">
+                    <label for="sides_todo2" name="sides_todo2" value="Penni nut's">Penni nut's</label></li>
+                <li><input type="checkbox" id="sides_todo3" name="sides_todo3" value="Olives">
+                    <label for="sides_todo3" name="sides_todo3" value="Olives">Olives</label></li>
+                <li><input type="checkbox" id="sides_todo4" name="sides_todo4" value="Maple Mustard dressing">
+                    <label for="sides_todo4" name="sides_todo4"value="Maple Mustard dressing">Maple Mustard dressing</label></li>
+                <li><input type="checkbox" id="sides_todo5" name="sides_todo5" value="Green oil">
+                    <label for="sides_todo5" name="sides_todo5" value="Green oil">Green oil</label></li>
+                <li><input type="checkbox" id="sides_todo6" name="sides_todo6" value="Sariotolais bread">
+                    <label for="sides_todo6" name="sides_todo6" value="Sariotolais bread">Sariotolais bread</label></li>
+                <li><input type="checkbox" id="sides_todo7" name="sides_todo7" value="Vegan lemon aioli">
+                    <label for="sides_todo7" name="sides_todo7" value="Vegan lemon aioli">Vegan lemon aioli</label></li>
+            </ul>
+
+            <h3>Cheese</h3>
+            <ul>
+                <li>Pelola blue</li>
                 <li>Spruce cheddar</li>
                 <li>Fig Jam</li>
                 <li>Carmelised pineseeds</li>
             </ul>
+
+            
                 
                 
 
@@ -76,105 +108,114 @@
         <div class="column2">
             <h3>Urheilija 3.0</h3>
             <ul>
-                <li>fig Jam</li>
-                <li>fig jam</li>
-                <li>fig Jam</li>
-                <li>fig Jam</li>
-                <li>fig Jam</li>
-                <li>fig Jam</li>
+                <li>Leike panko</li>
+                <li>Chili lime Butter</li>
+                <li>Saved pickled Shallots</li>
+                <li>Mashed potato</li>
+                <li>Herb salad</li>
+                <li>Capers</li>
             </ul>
 
             <h3>Meatballs</h3>
             <ul>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
+                <li>Cook Meatballs 12 min</li>
+                <li>Braised red cabbage</li>
+                <li>Pepper sauce</li>
+                <li>Mashed potatoe</li>
             </ul>
 
             <h3>Fish & chips</h3>
             <ul>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
+                <li>Cod defrost</li>
+                <li>Mad Hopper Batter</li>
+                <li>Peas & herb oil</li>
+                <li>Tartar sauce</li>
+                <li>Lemon wedge</li>
             </ul>
 
             <h3>Veal Liver</h3>
             <ul>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
+                <li>Liver Defrost/Pack</li>
+                <li>Beer Onions</li>
+                <li>Parsnip Puree</li>
+                <li>Horseraddish</li>
+                <li>Lingonberries</li>
             </ul>
             <h3>Risotto</h3>
             <ul>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
+                <li>Risotto Base</li>
+                <li>Mushroom Puree</li>
+                <li>Parmesan</li>
+                <li>Rice Paper</li>
+                <li>Pickled Kanterel</li>
             </ul>
 
             <h3>Penni Salad</h3>
             <ul>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
-                <li>Carmelised pineseeds</li>
+                <li>Salad Mix/ rocket</li>
+                <li>Red Quinoa</li>
+                <li>Chicken/Falafel/Hopper Salmon</li>
+                <li>Tomato/Fennel/Cucumber</li>
+                <li>Edamamme/Pommegranite/Red onion</li>
+                <li>Chili sesame dressing</li>
+                <li>Artichoke Puree</li>
             </ul>
         </div>
         <div class="column3">
             <h3>Salmon Soup</h3>
                 <ul>
-                    <li>fig Jam</li>
-                    <li>fig jam</li>
-                    <li>fig Jam</li>
-                    <li>fig Jam</li>  
+                    <li>Salmon 140g</li>
+                    <li>Salmon Soup Base</li>
+                    <li>Pickled Dill</li>
+                    <li>Dill Oil</li>  
                 </ul>
 
             <h3>Entrecote</h3>
                 <ul>
-                    <li>fig Jam</li>
-                    <li>fig jam</li>
-                    <li>fig Jam</li>
-                    <li>fig Jam</li> 
-                    <li>fig Jam</li> 
+                    <li>Entrecote 200g Defrost</li>
+                    <li>Garlic Butter</li>
+                    <li>Broccolini/papu/peas/Zucchini</li>
+                    <li>Beer & Thyme sauce</li> 
+                    <li>Herb Garnish</li> 
                 </ul>
             
             <h3>Burger</h3>
                 <ul>
-                    <li>fig Jam</li>
-                    <li>fig jam</li>
-                    <li>fig Jam</li>
-                    <li>fig Jam</li> 
-                    <li>fig Jam</li> 
+                    <li>160g patty</li>
+                    <li>Muu Vegge burger</li>
+                    <li>Nurmileipä sämpylä</li>
+                    <li>Burger Mayo</li>
+                    <li>Jääsalaatti</li> 
+                    <li>Marinated cabbage</li> 
+                    <li>Pickled red onion</li>
+                    <li>Cheddar cheese</li>
                 </ul>
             
             <h3>Brulee</h3>
             <ul>
-                <li>fig Jam</li>
-                <li>fig jam</li>
+                <li>Brulee Massa/Cook</li>
+                <li>Raspberries/sauce/dry</li>
+                <li>Crystalized white chocolate</li>
             </ul>
 
             <h3>STP</h3>
             <ul>
-                <li>fig Jam</li>
-                <li>fig jam</li>
-                <li>fig Jam</li>
+                <li>Cake make/Cut/Freeze</li>
+                <li>Toffee sauce</li>
+                <li>Vanilla Icecream</li>
             </ul>
             
             <h3>apples</h3>
             <ul>
-                <li>fig Jam</li>
-                <li>fig jam</li>
-                <li>fig Jam</li>
+                <li>Apples, Make/Freeze</li>
+                <li>Vanilla sauce</li>
+                <li>Granola</li>
             </ul>
+            <h3>Icrcream</h3>
+            <ul>
+                <li>according to season</li>
+            </ul>
+
         </div>
     </div>   
 </body>
