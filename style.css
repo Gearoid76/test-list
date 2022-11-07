@@ -73,12 +73,11 @@
     padding: 0;
   }
   a{
-    color: white;
     text-decoration: none;
   }
   .back_to_prepPage {
     border: none;
-    color: white;
+    color: yellow;
     padding:1em 2em;
     text-align: center;
     display: inline-block;
